@@ -224,7 +224,7 @@ if(validDependent && isDependentValidDOB)
       set(state,`screenConfiguration.preparedFinalObject.ProcessInstances[0].dependents[${index}].address`, (element.address));
       set(state,`screenConfiguration.preparedFinalObject.ProcessInstances[0].dependents[${index}].mobileNumber`, Number(element.mobileNumber));
       set(state,`screenConfiguration.preparedFinalObject.ProcessInstances[0].dependents[${index}].relationship`, (element.relationship));
-      set(state,`screenConfiguration.preparedFinalObject.ProcessInstances[0].dependents[${index}].isDisabled`, Boolean(isDisabled));
+      set(state,`screenConfiguration.preparedFinalObject.ProcessInstances[0].dependents[${index}].isDisabled`, Boolean(element.isDisabled));
       set(state,`screenConfiguration.preparedFinalObject.ProcessInstances[0].dependents[${index}].isEligibleForGratuity`, Boolean(element.isEligibleForGratuity));
       set(state,`screenConfiguration.preparedFinalObject.ProcessInstances[0].dependents[${index}].isEligibleForPension`, Boolean(element.isEligibleForPension));
       set(state,`screenConfiguration.preparedFinalObject.ProcessInstances[0].dependents[${index}].isGrandChildFromDeceasedSon`, Boolean(element.isGrandChildFromDeceasedSon));
